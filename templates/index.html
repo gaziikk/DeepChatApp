@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepSeek AI</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" href="/static/images/deepseek-icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="/static/images/deepseek-icon.png" alt="Deepseek Icon">
+            <span>DeepSeek AI</span>
+        </div>
+        
+        <div class="chat-messages" id="chat">
+            <!-- Сам чат с deepseek-R1 -->
+        </div>
+        
+        <div class="typing-indicator" id="typing-indicator">
+            <div class="typing-dots">
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <input type="text" id="message-input" placeholder="Напишите сообщение..." autocomplete="off" required>
+            <button id="send-btn">Отправить</button>
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
